@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GateExam</string>
+    <string name="countdown">There are only Left</string>
+    <string name="countdownleft">till GateExam!</string>
+</resources>
