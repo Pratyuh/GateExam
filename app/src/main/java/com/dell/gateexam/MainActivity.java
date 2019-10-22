@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     SimpleDateFormat dateFormat = new SimpleDateFormat(
                             "yyyy-MM-dd");
                     // Please here set your event date//YYYY-MM-DD
-                    Date futureDate = dateFormat.parse("2020-02-04");
+                    Date futureDate = dateFormat.parse("2020-02-01");
                     Date currentDate = new Date();
                     if (!currentDate.after(futureDate)) {
                         long diff = futureDate.getTime()
