@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                                 + String.format("%02d", seconds));
                     } else {
                         tvEvent.setVisibility(View.VISIBLE);
-                        tvEvent.setText("The event started!");
+                        tvEvent.setText("The Gate Exam started!");
                         textViewGone();
                     }
                 } catch (Exception e) {
